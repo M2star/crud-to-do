@@ -1,0 +1,74 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+lib-cov
+lib
+*.seed
+*.db
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# IDE (e.g., Visual Studio Code) configuration files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration
+config/local.json
+
+# Ignore production configuration
+config/prod.json
+
+# Ignore test configuration
+config/test.json
+
+# Ignore environment-specific configuration
+config/*.local.js
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore Node.js process manager
+pm2.config.js
+
+# Ignore build output
+/build/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore Mongoose model files
+models/
+
+# Ignore database backup files
+db_backup/
+
+# Ignore any generated files
+*.bak
+*.swp
